@@ -13,7 +13,7 @@ end
 result
 end
 
-def apply_coupons(cart:[], coupons:[])
+ef apply_coupons(cart:[], coupons:[])
   result = {}
   cart.each do |food, info|
     coupons.each do |coupon|
